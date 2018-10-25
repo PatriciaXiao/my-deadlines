@@ -24,8 +24,8 @@ function countdown_timer(date_string, container_id) {
 
     	  // Display the result in the element with id="demo"
         if (days > 0 && hours >= 0 && minutes >= 0 && seconds >= 0)
-           document.getElementById(container_id).innerHTML = "<b><font color='green'>" + days + " d " + hours + " h " 
-              + minutes + " m " + seconds + " s</font></b>";
+           document.getElementById(container_id).innerHTML = "<font color='green'><b>" + days + "</b> <b>" + hours + "</b> h <b>" 
+              + minutes + "</b> m <b>" + seconds + "</b> s</font>";
         else if (days == 0 && hours >= 0 && minutes >= 0 && seconds >= 0)
            document.getElementById(container_id).innerHTML = "<b><font color='red'>" + days + " d " + hours + " h " 
               + minutes + " m " + seconds + " s</font></b>";
